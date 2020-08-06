@@ -17,7 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <!-- a href="https://github.com/othneildrew/Best-README-Template">
+  <!-- a href="https://github.com/Odyno/ingv-early-est-poc">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a -->
 
@@ -26,14 +26,14 @@
   <p align="center">
     Data management & Realtime data display
     <br />
-    <!--a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <!--a href="https://github.com/Odyno/ingv-early-est-poc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/Odyno/ingv-early-est-poc">View Demo</a>
     ·-->
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Odyno/ingv-early-est-poc/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/Odyno/ingv-early-est-poc/issues">Request Feature</a>
   </p>
 </p>
 
@@ -62,8 +62,6 @@
         <img src="doc/imgs/POC.png" alt="Schema" width="90%">
     </a>
 </p>
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Lo scopo di questo proggetto è creare un POC di una infrastruttura capace di gestire eventi realtime sismici. L'idea è proporre una architettura che deve avere la caratteristica di estendibile, scalabile ed agnostica.
 
@@ -129,7 +127,7 @@ The documentation in in progress, For more examples, please refer to the buildig
 
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Odyno/ingv-early-est-poc/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -155,7 +153,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Alessandro Staniscia - [@alexstani](https://twitter.com/alexstani) - alessandro @ staniscia.net - https://www.staniscia.net
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Odyno/ingv-early-est-poc](https://github.com/Odyno/ingv-early-est-poc)
 
 <!-- ACKNOWLEDGEMENTS --
 
@@ -173,20 +171,18 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 - [JVectorMap](http://jvectormap.com)
 - [Font Awesome](https://fontawesome.com)
 
-<!-- MARKDOWN LINKS & IMAGES --
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links --
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/Odyno/ingv-early-est-poc/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/Odyno/ingv-early-est-poc/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/Odyno/ingv-early-est-poc/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/Odyno/ingv-early-est-poc/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/Odyno/ingv-early-est-poc/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
--->
+[linkedin-url]: https://www.linkedin.com/in/stanisciaalessandro
