@@ -17,14 +17,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <!-- a href="https://github.com/Odyno/ingv-early-est-poc">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a -->
-
-  <h3 align="center">Early-Est Proof Of Concept</h3>
-
+  <a href="https://github.com/Odyno/ingv-early-est-poc">
+    <img src="doc/imgs/POC.png" alt="Logo" width="200px">
+  </a>
+  <h2 align="center">Early-Est Arch Proof Of Concept</h2>
   <p align="center">
-    Data management & Realtime data display
+    Proof Of Concept for Data management & Realtime data display
     <br />
     <!--a href="https://github.com/Odyno/ingv-early-est-poc"><strong>Explore the docs »</strong></a>
     <br />
@@ -63,23 +61,25 @@
     </a>
 </p>
 
-Lo scopo di questo proggetto è creare un POC di una infrastruttura capace di gestire eventi realtime sismici. L'idea è proporre una architettura che deve avere la caratteristica di estendibile, scalabile ed agnostica.
+The purpose of this project is to create an example of an infrastructure that can handle seismic events in real time. The idea is to show the feasibility of an architecture that must be extendible, scalable and agnostic.
 
-Il caso d’uso è la realizzazione di un sistema di management e classification degli eventi sismici provenienti dal sistema realtime noto come “Early-Est”
+The use case is the realization of realtime data management & realtime data display of seismic events from the realtime system known as [Early-Est](http://early-est.rm.ingv.it/warning.html).
 
-E' usato Apache Kafka, un (e non solo) consolidato pattern del publish/subscribe su una infrastruttura moderna e scalabile. Alcune delle caratteristiche che Apache Kafka è in grado di fornire nativamente per questo POC:
+Is used [Apache Kafka](https://kafka.apache.org/), a (and not only) consolidated pattern of publish/subscribe on a modern and scalable infrastructure. Some of the features that [Apache Kafka](https://kafka.apache.org/) is able to provide natively for this POC are:
 
-- La possibilità di inserire dati in ingresso come flusso diretto o come offline bulk. Chi utilizzerà il dato utilizzerà un flusso dati e non sará influenzato dalle caratteristiche intrinseche della fonte dei dati.
-- La possibilità di creare pipeline con attori non legati tra loro. Ogni step della pipeline produce/arricchisce/riduce il dato e lo mette a disposizione senza sapere chi in seguito ne farà uso
-- Architettura poliglotta. Ci sono diversi modi di interrogare Kafka: esistono librerie in C#, Java, C, Python ed altro. L'ecosistema potrebbe fornisce anche proxy REST che permette integrazione via HTTP e JSON.
-- Kafka è scalabile. Grazie ad una architettura distribuita ed ad una configurazione adeguata è possibile scalare su piú nodi senza incorrere in downtime.
+- The possibility to enter input data as a direct flow or as offline bulk. Those who will use the data will use a data stream and will not be influenced by the intrinsic characteristics of the data source.
 
-Il setup di questa architettura è basata su un single broker di kafka, eseguita tramite Docker CE.
-Gli applicativi possono essere creati ed eseguiti indipendentemente dal linguaggio e dall'ambiente di esecuzione: per semplicità in questo POC sono tutti applicativi NodeJS.
+- The possibility to create pipelines with unrelated actors. Each step of the pipeline produces/enriches/reduces the data and makes it available without knowing who will use it later.
+
+- Polyglot architecture. There are different ways to query Kafka: there are libraries in C#, Java, C, Python and more. The ecosystem could also provide REST proxy that allows integration via HTTP and JSON.
+- Kafka is scalable. Thanks to a distributed architecture and a proper configuration it is possible to scale on multiple nodes without downtime.
+
+The setup of this architecture is based on a single kafka broker, running through Docker CE.
+The applications can be created and run independently from the language and execution environment: for simplicity in this POC they are all NodeJS applications.
 
 ### Built With
 
-Elenca tutti i principali framework che hai utilizzato:
+The main frameworks used:
 
 - [Docker CE](https://docs.docker.com/)
 - [NodeJS](https://nodejs.org/)
@@ -88,14 +88,14 @@ Elenca tutti i principali framework che hai utilizzato:
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a working local copy, follow these simple example steps.
 
 ### Prerequisites
 
-Le cose necessarie per utilizzare il software e come installarle.
+The things needed to use the software are:
 
-- Docker: seguire la guida https://docs.docker.com/get-docker/
-- npm : seguire la guida https://nodejs.org/it/
+- Docker: follow the guide https://docs.docker.com/get-docker/
+- npm : follow the guide https://nodejs.org/it/
 
 ### Installation
 
