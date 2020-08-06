@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#map {
+  height: 100%;
+  font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.lorem {
+  font-style: italic;
+  text-align: justify;
+  color: #aaa;
+}
+
+.eventHTMLList {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.eventHTML:nth-child(odd) {
+  background: #eee;
+}
+
+.eventHTML {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: auto;
+  border-bottom: 3px dotted black;
+  border-left: 3px dotted black;
+}
+
+.eventHTML table {
+  border: 1px solid gray;
+  border-radius: 13px;
+  border-spacing: 0;
+}
+.eventHTML table td,
+.eventHTML table th {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  white-space: nowrap;
+}
+.eventHTML table tr:last-child > td {
+  border-bottom: none;
+}
+.eventHTML .origin header {
+  margin-bottom: 3px;
+  color: black;
+  white-space: nowrap;
+}
+.eventHTML .magnitude header {
+  margin-bottom: 3px;
+  color: black;
+  white-space: nowrap;
+}
